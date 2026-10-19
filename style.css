@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.judul1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 145, 0);
+    margin-top: 50px;
+    margin-top: 250px;
+    margin-left: 50px;
+    max-width: 100%;
+    font-size: 32px;
+}
+
+.menu{
+    border-radius: 20px;
+    padding: 12px 20px;
+    border: none;
+    border: 2px solid rgb(255, 145, 0);
+    color: rgb(255, 145, 0);
+    background: none;
+    font-weight: 700;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+.menu:hover{
+    background-color: rgb(255, 145, 0);
+    color: white;
+    transform: scale(1.05) ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    gap: 80px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-left: 50px;
+    
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    height: 10%;
+    background-color: rgb(255, 145, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.hero1{
+    width: 800px;
+    margin-left: 650px;
+    margin-top: -400px;
+
+}
+
+.hola1{
+    font-size: 16px;
+    color: rgb(80, 45, 0);
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+.judul2{
+    color: rgb(80, 45, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.Katalog{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 350px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.mnu{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0cap 10px rgb(213, 213, 213);
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    transition: transform 0.3s, transform 0.3s;
+    width: 280px;
+    height: 300px;
+}
+
+.mnu:hover{
+    transform: scale(1.05);
+    box-shadow: rgb(213, 213, 213) 0 10px 10px 0px;
+}
+
+.img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 280px;
+    
+}
+
+.ket{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 45, 0);
+}
+
+.kat1{
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.120);
+    border-radius: 20px;
+    padding: 5px 10px 5px;
+    border: 1px solid rgb(255, 0, 0);
+    margin-right: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+.kat2{
+    display: block;
+    text-align: center;
+    background-color: rgba(8, 0, 255, 0.130);
+    border-radius: 20px;
+    padding: 5px 10px 5px;
+    border: 1px solid rgb(8, 0, 255);
+    margin-right: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgb(8, 0, 255);
+}
+
+
+.btn1{
+    border-radius: 20px;
+    border: none;
+    border: 2px solid rgb(255, 145, 0);
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    color: rgb(255, 145, 0);
+    font-weight: 700;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn1:hover{
+    background-color: rgb(255, 145, 0);
+    color: white;
+    transform: scale(1.05);
+}
+
+.pageMenu{
+    margin-top: -100px;
+}
+
+.judulabout{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-top: 105px;
+    background-color: rgb(255, 145, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+}
+
+.isiabout{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    margin-left: 40%;
+    margin-right: 50px;
+    margin-top: -340px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 45, 0);
+}
+
+.isiabout p{
+    margin-top: 0;
+}
+
+.gambarkantin img{
+   width: 500px;
+   margin-left: 50px;
+   border-radius: 20px;
+   margin-top: 50px;
+}
+
+.media{
+    margin-left: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 145, 0);
+}
+
+.btn-about{
+    display: flex;
+    gap: 20px;
+    margin-left: 40%;
+    border-radius: 50px;
+     
+}
+
+.con-btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    border: 2px solid rgb(255, 145, 0);
+    font-weight: 700;
+    background-color: white;
+    color: rgb(255, 145, 0);
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.con-btn:hover{
+    color: white;
+    background-color: rgb(255, 145, 0);
+    transform: scale(1.10);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#punyaabout, #punyamenu, #punyamedia{
+    scroll-margin-top: 100px;
+}
+
+.panelTransaksi {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    width: 430px;
+    max-width: calc(100vw - 30px);
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 25px 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 45, 0);
+}
+
+.panelTransaksi h3 {
+    font-size: 17px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.panelTransaksi p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 12px 0;
+}
+
+.panelTransaksi hr {
+    border: none;
+    border-top: 1px solid rgb(210, 210, 210);
+    margin: 20px 0;
+}
+
+.panelTransaksi button {
+    cursor: pointer;
+}
+
+.panelTransaksi #daftarPesanan p {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.panelTransaksi #daftarPesanan button {
+    border: 1px solid rgb(255, 145, 0);
+    border-radius: 5px;
+    background: white;
+    color: rgb(255, 145, 0);
+    padding: 3px 9px;
+    font-size: 15px;
+}
+
+.panelTransaksi #daftarPesanan button:hover {
+    background: rgb(255, 145, 0);
+    color: white;
+}
+
+.tutup {
+    float: right;
+    border: none;
+    background: none;
+    color: rgb(40, 40, 40);
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+    .panelTransaksi {
+        right: 10px;
+        width: calc(100vw - 20px);
+        padding: 20px;
+    }
+}
+
+.btn-pesan{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    border: 2px solid rgb(255, 145, 0);
+    font-weight: 700;
+    background-color: white;
+    color: rgb(255, 145, 0);
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.btn-pesan:hover{
+    color: white;
+    background-color: rgb(255, 145, 0);
+    transform: scale(1.10);
+}

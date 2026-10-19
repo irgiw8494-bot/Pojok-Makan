@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HALAMAN MENU -->
+    <div class="pageMenu">
+      <!-- HEADER -->
+      <header>
+        <!-- LOGO -->
+        <div class="logo">
+          <h1><b>Pojok-makan</b></h1>
+        </div>
+        <!-- NAVIGASI BAR -->
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="#punyaabout">About</a>
+          <a href="#punyamedia">Media</a>
+          <a href="#punyamenu">Menu</a>
+        </nav>
+      </header>
+
+      <!-- SECTION-MENU -->
+      <section id="punyamenu">
+        <div class="judul1">
+          <h1>
+            <b>Selamat datang!<br />berikut menu yang kami sediakan.</b>
+          </h1>
+          <div class="hola1">
+            <p>
+              Jelajahi menu favorit mu hanya disini! pesanan menjadi lebih mudah
+              dan praktis.
+            </p>
+          </div>
+        </div>
+        <br />
+        <div class="daftarMenu">
+          <div class="judul2">
+            <p><b>Daftar menu :</b></p>
+          </div>
+          <div class="Katalog">
+            <div class="mnu">
+              <img class="img" src="image/nasgor.jpg" alt="" width="300px" />
+              <p class="kat1">Makanan</p>
+              <p class="ket"><b>Nasi goreng</b></p>
+              <p class="ket"><b>Rp15.000</b></p>
+              <button class="btn1" onclick="buatpesanan('Nasi goreng', 15000)">
+                Beli sekarang +
+              </button>
+            </div>
+
+            <div class="mnu">
+              <img class="img" src="image/mie.jpg" alt="" width="300px" />
+              <p class="kat1">Makanan</p>
+              <p class="ket"><b>Mie goreng</b></p>
+              <p class="ket"><b>Rp12.000</b></p>
+              <button class="btn1" onclick="buatpesanan('Mie goreng', 12000)">
+                Beli sekarang +
+              </button>
+            </div>
+
+            <div class="mnu">
+              <img class="img" src="image/sotang.jpg" alt="" width="300px" />
+              <p class="kat1">Makanan</p>
+              <p class="ket"><b>Nugget, sosis, kentang</b></p>
+              <p class="ket"><b>Rp10.000</b></p>
+              <button
+                class="btn1"
+                onclick="buatpesanan('Nugget, sosis, kentang', 10000)"
+              >
+                Beli sekarang +
+              </button>
+            </div>
+
+            <div class="mnu">
+              <img class="img" src="image/air.jpg" alt="" width="300px" />
+              <p class="kat2">Minuman</p>
+              <p class="ket"><b>Air mineral</b></p>
+              <p class="ket"><b>Rp5.000</b></p>
+              <button class="btn1" onclick="buatpesanan('Air mineral', 5000)">
+                Beli sekarang +
+              </button>
+            </div>
+
+            <div class="mnu">
+              <img class="img" src="image/es.jpg" alt="" width="300px" />
+              <p class="kat2">Minuman</p>
+              <p class="ket"><b>Es teh manis</b></p>
+              <p class="ket"><b>Rp7.000</b></p>
+              <button class="btn1" onclick="buatpesanan('Es teh manis', 7000)">
+                Beli sekarang +
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION BAR TRANSAKSI -->
+      <div class="panelTransaksi" id="panelTransaksi">
+        <button class="tutup" onclick="tutupPanel()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3>TRANSAKSI ANDA</h3>
+        <div id="daftarPesanan"><p>Belum ada pesanan!</p></div>
+        <hr />
+        <p>Subtotal : <span id="subTotal">Rp0</span></p>
+        <p>Diskon : <span id="diskon">Rp0</span></p>
+        <h3>TOTAL TRANSAKSI ANDA</h3>
+        <p>
+          <b>Total : <span id="total">Rp0</span></b>
+        </p>
+        <button class="btn-pesan" id="buatPesanan" onclick="sukses()">
+          Buat pesanan sekarang
+        </button>
+      </div>
+
+      <!-- SECTION-ABOUT -->
+      <section id="punyaabout">
+        <div class="tentangpm">
+          <div class="judulabout">
+            <h1><b>Tentang pojok-makan</b></h1>
+          </div>
+          <div class="gambarkantin">
+            <img src="image/kantin.png" alt="" />
+          </div>
+          <div class="isiabout">
+            <p>
+              <span style="font-weight: 700; color: rgb(255, 145, 0)"
+                >Pojok Makan</span
+              >
+              adalah kantin sekolah yang menyediakan berbagai pilihan makanan
+              dan minuman untuk menemani waktu istirahat para siswa. Kami
+              menyediakan menu yang beragam dengan harga yang terjangkau,
+              sehingga siswa dapat memilih makanan sesuai dengan selera dan
+              kebutuhan mereka. Pojok Makan bukan hanya tempat untuk membeli dan
+              menikmati makanan, tetapi juga menjadi tempat bagi siswa untuk
+              berkumpul bersama teman-teman. Di sini, siswa dapat mengobrol,
+              bercanda, berbagi cerita, dan menikmati waktu istirahat dengan
+              suasana yang nyaman dan menyenangkan. Melalui website ini, siswa
+              dapat melihat daftar menu, harga, serta informasi mengenai makanan
+              dan minuman yang tersedia tanpa harus datang langsung ke kantin.
+              Dengan begitu, proses memilih dan memesan makanan menjadi lebih
+              mudah dan praktis. Kami berharap Pojok Makan dapat menjadi salah
+              satu tempat favorit siswa untuk menikmati makanan sekaligus
+              menciptakan momen menyenangkan bersama teman-teman di sekolah.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION-MEDIA -->
+      <section id="punyamedia">
+        <div class="media">Media Pojok-makan</div>
+        <div class="btn-about">
+          <button class="con-btn">
+            <i class="fa-brands fa-github"></i> Github
+          </button>
+          <button class="con-btn">
+            <i class="fa-brands fa-square-instagram"></i> Instagram
+          </button>
+          <button class="con-btn">
+            <i class="fa-brands fa-tiktok"></i> Tiktok
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
